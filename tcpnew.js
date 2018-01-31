@@ -2,7 +2,7 @@ var net = require('net');
 var http = require('http');
 
 var client = new net.Socket();
-client.connect(6801, '127.0.0.1', function() {
+client.connect(6801, '131.156.156.33', function() {
 	console.log('Connected');
 	
 		client.write('Hello, server!! Love, Client.');
